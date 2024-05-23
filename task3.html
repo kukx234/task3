@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Task 3</title>
+</head>
+<body>
+    <div class="swiper-container">
+        <swiper-container class="swiper" data-config='{
+            "slidesPerView": 1.04555,
+            "spaceBetween": 8,
+            "breakpoints": {
+                "450": {
+                    "slidesPerView": 1.75,
+                    "spaceBetween": 8
+                },
+                "768": {
+                    "slidesPerView": 2.2,
+                    "spaceBetween": 8
+                },
+                "1024": {
+                    "slidesPerView": 2.9075,
+                    "spaceBetween": 8
+                }
+            }
+        }'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="./images/first_1440.jpg" alt=""> </div>
+                <div class="swiper-slide"> <img src="./images/second_1440.jpg" alt=""> </div>
+                <div class="swiper-slide"> <img src="./images/third_1440.jpg" alt=""> </div>
+                <div class="swiper-slide"> <img src="./images/second_1440.jpg" alt=""> </div>
+                <div class="swiper-slide"> <img src="./images/first_1440.jpg" alt=""> </div>
+                <div class="swiper-slide"> <img src="./images/third_1440.jpg" alt=""> </div>
+            </div>
+            <div class="swiper-button-next"><img src="./icons/right_arrow.svg"></div>
+            <div class="swiper-button-prev"><img src="./icons/left_arrow.svg"></div>
+        </swiper-container>
+        <div class="loader-container"><div class="loader"></div></div>
+    </div>
+</body>
+</html>
+
+<script src="task3.js"></script>
